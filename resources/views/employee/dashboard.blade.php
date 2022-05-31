@@ -70,12 +70,12 @@
                                                role="tab" aria-controls="Basic"
                                                aria-selected="true">{{trans('file.Basic')}}</a>
                                         </li>
-                                        <li class="nav-item">
+                                        {{-- <li class="nav-item">
                                             <a class="nav-link" href="{{route('immigrations.show',$employee)}}"
                                                id="immigration-tab" data-toggle="tab" data-table="immigration"
                                                data-target="#Immigration" role="tab" aria-controls="Immigration"
                                                aria-selected="false">{{trans('file.Immigration')}}</a>
-                                        </li>
+                                        </li> --}}
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{route('contacts.show',$employee)}}"
                                                id="emergency-tab" data-toggle="tab" data-table="emergency"
