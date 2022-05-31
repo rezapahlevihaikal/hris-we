@@ -156,7 +156,7 @@
 
 <body>
 <div id="loader"></div>
-<!-- navbar-->
+<!-- navbar--> 
 <header class="header">
     <nav class="navbar">
         <div class="container-fluid">
