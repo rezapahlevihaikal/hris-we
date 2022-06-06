@@ -25,7 +25,8 @@
     <div class="container">
         <div class="form-outer text-center d-flex align-items-center">
             <div class="form-inner">
-                <div class="logo"><span>{{$general_setting->site_title}}</span></div>
+                {{-- <div class="logo"><span>{{$general_setting->site_title}}</span></div> --}}
+                <div class="logo"><img src="{{asset('/images/logo/logowegede.png')}}" alt=""></div>
                 @include('shared.errors')
                 @include('shared.flash_message')
                 <form method="POST" action="{{ route('login') }}" id="login-form">
