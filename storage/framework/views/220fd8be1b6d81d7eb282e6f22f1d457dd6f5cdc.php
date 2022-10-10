@@ -70,12 +70,7 @@
                                                role="tab" aria-controls="Basic"
                                                aria-selected="true"><?php echo e(trans('file.Basic')); ?></a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo e(route('immigrations.show',$employee)); ?>"
-                                               id="immigration-tab" data-toggle="tab" data-table="immigration"
-                                               data-target="#Immigration" role="tab" aria-controls="Immigration"
-                                               aria-selected="false"><?php echo e(trans('file.Immigration')); ?></a>
-                                        </li>
+                                        
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo e(route('contacts.show',$employee)); ?>"
                                                id="emergency-tab" data-toggle="tab" data-table="emergency"

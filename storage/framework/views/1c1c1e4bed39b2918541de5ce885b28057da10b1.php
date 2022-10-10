@@ -156,7 +156,7 @@
 
 <body>
 <div id="loader"></div>
-<!-- navbar-->
+<!-- navbar--> 
 <header class="header">
     <nav class="navbar">
         <div class="container-fluid">
@@ -173,7 +173,8 @@
 
 
                 <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
-                    
+                    <li class="nav-item"><a id="btnFullscreen" data-toggle="tooltip"
+                                            title="<?php echo e(__('Full Screen')); ?>"><i class="dripicons-expand"></i></a></li>
                     
                     </li>
                     

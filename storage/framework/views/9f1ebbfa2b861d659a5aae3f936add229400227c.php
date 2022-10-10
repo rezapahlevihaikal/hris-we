@@ -25,7 +25,8 @@
     <div class="container">
         <div class="form-outer text-center d-flex align-items-center">
             <div class="form-inner">
-                <div class="logo"><span><?php echo e($general_setting->site_title); ?></span></div>
+                
+                <div class="logo"><img src="<?php echo e(asset('/images/logo/logowegede.png')); ?>" alt=""></div>
                 <?php echo $__env->make('shared.errors', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                 <?php echo $__env->make('shared.flash_message', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                 <form method="POST" action="<?php echo e(route('login')); ?>" id="login-form">

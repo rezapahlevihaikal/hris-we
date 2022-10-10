@@ -930,7 +930,7 @@ Route::group(['middleware' => ['XSS']], function ()
 		Route::get('assets_category/{id}/delete', 'Variables\AssetCategoryController@destroy')->name('assets_category.destroy');
 		Route::resource('assets_category', 'Variables\AssetCategoryController')->except([
 			'create', 'update', 'destroy', 'show']);
-
+			
 		Route::post('document_type/update', 'Variables\DocumentTypeController@update')->name('document_type.update');
 		Route::get('document_type/{id}/delete', 'Variables\DocumentTypeController@destroy')->name('document_type.destroy');
 		Route::resource('document_type', 'Variables\DocumentTypeController')->except([
